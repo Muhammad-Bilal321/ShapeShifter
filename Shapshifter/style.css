@@ -1,0 +1,77 @@
+/* body{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.realShape{
+position: absolute;
+top: 25%;
+left: 30%;
+    width: 40%;
+    height: 40vh;
+    background-color: black;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square {
+  position: absolute;
+  top: 25%;
+left: 40%;
+    background-color: green;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+    background-color: blue;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rectangle{
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  background-color: red;
+  height: 100px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.triangle {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayBtn{
+  position: fixed;
+  gap: 15px;
+  width: 50px;
+top: 80%;
+left: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
